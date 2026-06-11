@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lishka Z4_html</title>
+</head>
+<body>
+    <p><b>1)Zewnętrzny arkusz stylów.</b></p>
+    <textarea cols="70" rows="3">
+        <head>
+         <link rel="Stylesheet" type="text/css" href="style.css" />
+        </head>
+    </textarea>
+    <p><b>2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony.</b></p>
+    <textarea cols="80" rows="1">
+        <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+    </textarea>
+    <p><b>3)Wewnętrzny arkusz stylów.</b></p>
+    <textarea cols="65" rows="6">
+        <head>
+         <style type="text/css">
+            selektor1 { cecha: wartość; cecha2: wartość2... }
+            selektor2 { cecha: wartość; cecha2: wartość2... }
+         </style>
+        </head>
+    </textarea>
+    <p><b>4)Alternatywny arkusz stylów.</b></p>
+    <textarea cols="100" rows="5">
+        <head>
+            <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+            <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+            <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+        </head>
+    </textarea>
+    <p><b>5)Import arkusza stylów.</b></p>
+    <textarea cols="60" rows="3">
+        <style type="text/css">
+            @import url(adres zewnętrznego arkusza stylów);
+        </style>
+    </textarea>
+    <!-- Lishka Z4_html -->
+</body>
+</html>

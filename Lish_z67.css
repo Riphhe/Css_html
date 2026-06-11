@@ -1,0 +1,27 @@
+p.akapit1{
+    font-size: 20pt;
+    color:#40E0D0;
+}
+p.akapit1::first-letter{
+    color:silver;
+    font-size: 129pt;
+}
+p.akapit3{
+    font-size: 20pt;
+    color:#40E0D0;
+}
+p.akapit3::first-line{
+    color:silver;
+}
+p.akapit3::first-letter{
+    font-size: 129pt;
+}
+p.akapit2{
+    font-size: 19pt;
+    color:#40E0D0;
+}
+p.akapit2::first-letter{
+    color:yellow;
+    font-size: 129pt;
+}
+/*Nazar Lishka*/

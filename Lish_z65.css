@@ -1,0 +1,33 @@
+/* Nazar Lishka */
+div#pierwszy_lishka{
+    width:748pt;
+    margin:0 auto;
+    background-color: lightblue;
+    border:5px;
+    border-radius: 12px;
+    border-style:solid;
+    border-color:blue;
+    
+}
+div#drugi_lishka{
+    width:948pt;
+    background-color: pink;
+    border:3px;
+    border-radius: 13px;
+    border-style:solid;
+    border-color:black;
+    
+}
+div#trzeci_lishka{
+    width:1148pt;
+    margin:0 auto;
+    background-color: lightgreen;
+    border:7px;
+    border-radius: 18px;
+    border-style:solid;
+    border-color:purple;
+    
+}
+p{font-size:10pt;} 
+p:first-child
+{font-size:9mm;font-style:italic;}

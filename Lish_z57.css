@@ -1,0 +1,14 @@
+/* Nazar Lishka */
+*{
+    font-size: 35pt;
+    color: blue;
+    background-color: yellow;
+}
+.Lishka_nieuniwersalny{
+    font-size: 31pt;
+    color: purple;
+}
+.Lishka_uniwersalny{
+    font-size: 31pt;
+    color: black;
+}

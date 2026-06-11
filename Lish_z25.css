@@ -1,0 +1,63 @@
+#akapit1{
+    font-family: serif;
+    text-indent: 2cm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 5ex;
+    text-align: center;
+}
+.t1{
+    color: darkorange;
+    font-style: italic;
+    font-weight: 200;
+    font-size: x-small;
+    font-variant: small-caps;
+}
+.t2{
+    color: tomato;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: medium;
+}
+.t3{
+    color: orangered;
+    text-decoration: overline;
+    font-weight: 900;
+    font-size: large;
+}
+h1{
+    color:red;
+    font-size: 1cm;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+#akapit2{
+    font-family: sans-serif;
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+    text-align: right;
+}
+.t4{
+    color: mediumaquamarine;
+    font-weight: 300;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+.t5{
+    color: lightseagreen;
+    font-weight: 600;
+    font-size: 1in;
+    text-decoration: line-through;
+}
+.t6{
+    color: springgreen;
+    font-weight: 800;
+    font-size: 3em;
+    font-style: oblique;
+}

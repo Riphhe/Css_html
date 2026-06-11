@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naza Lishka zadanid kod</title>
+</head>
+<body>
+    <h1>HTML</h1>
+<textarea cols="110" rows="47">
+    <!DOCTYPE html>
+    <html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Lish_z65.css">
+        <title>Lish Z65</title>
+    </head>
+    <body>
+        <div id="pierwszy_lishka">
+            <p>Pierwszy akapit/pierwszy DIV--> Lishka <br>
+                nazwa ID akapitu id="pierwszy_lishka"</p>
+            <p>Drugi akapit/pierwszy DIV <br>
+                pierwszy akapit --> p:first-child{font-size:9mm;font-styl:italic;} <br>
+                bo numer parzysty w dzienniku <br>
+                pozostałe akapity --> p{font-size:10pt;} bo numer parzysty <br>
+                szerokość bloku = 700+12*4=748pt <br>
+                pierwszy DIV--> kolor jasno niebieski</p>
+            <p>trzeci akapit/pierwszy DIV <br>
+                pierwszy DIV--> obramowanie granatowe DIV <br>
+                pierwszy DIV--> obramowanie grubość 5px, ciągłe (solid) <br>
+                pierwszy DIV--> r1=7mm+5(Nazar)=12mm </p>
+        </div>
+        <div id="drugi_lishka">
+            <p>Pierwszy akapit/drugi DIV--> Nazar <br>
+                nazwa ID akapitu id="drugi_lishka"</p>
+            <p>Drugi akapit/drugi DIV <br>
+                drugi DIV--> kolor różowy</p>
+            <p>trzeci akapit/drugi DIV <br>
+                drugi DIV--> obramowanie  czarny DIV <br>
+                drugi DIV--> obramowanie grubość 3px, ciągłe (solid) <br>
+                drugi DIV--> r2=7mm+6(Lishka)=13mm</p>
+        </div>
+        <div id="trzeci_lishka">
+            <p>Pierwszy akapit/trzeci DIV--> klasa 1P <br>
+                nazwa ID akapitu id="trzeci_lishka"</p>
+            <p>Drugi akapit/trzeci DIV <br>
+                pierwszy DIV--> kolor jasno zielony</p>
+            <p>trzeci akapit/trzeci DIV(solid) <br>
+                trzeci DIV--> obramowanie fioletowy DIV <br>
+                trzeci DIV--> obramowanie grubość 7px, ciągłe (solid) <br>
+                trzeci DIV--> r3=7mm+11(listopad)=18mm</p>
+        </div>
+    </body>
+    </html>
+    <!--Nazar Lishka-->
+</textarea>
+<h1>CSS</h1>
+<textarea cols="30" rows="35">
+    /* Nazar Lishka */
+    div#pierwszy_lishka{
+        width:748pt;
+        margin:0 auto;
+        background-color: lightblue;
+        border:5px;
+        border-radius: 12px;
+        border-style:solid;
+        border-color:blue;
+        
+    }
+    div#drugi_lishka{
+        width:948pt;
+        background-color: pink;
+        border:3px;
+        border-radius: 13px;
+        border-style:solid;
+        border-color:black;
+        
+    }
+    div#trzeci_lishka{
+        width:1148pt;
+        margin:0 auto;
+        background-color: lightgreen;
+        border:7px;
+        border-radius: 18px;
+        border-style:solid;
+        border-color:purple;
+        
+    }
+    p{font-size:10pt;} 
+    p:first-child
+    {font-size:9mm;font-style:italic;}
+</textarea>
+</body>
+</html>
+<!--Nazar Lishka-->
